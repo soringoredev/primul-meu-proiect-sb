@@ -11,9 +11,30 @@ public class HelloWorldRestController {
         return "Hello World!";
     }
 
+    @GetMapping("/seva")
+    public String sevaV() {
+        return "Sevastian Vascan!";
+    }
+
+    @GetMapping("/dudu")
+    public String sanduG() {
+        return "Sandu Guzun!";
+    }
+
+    @GetMapping("/tanea")
+    public String taneaC() {
+        return "Tatiana Ceban!";
+    }
+
     @GetMapping("/vera")
     public String veraB() {
-        return "Vera bradu!";
+        return "Vera Bradu!";
+    }
+
+
+    @GetMapping("/meniu")
+    public String meniu() {
+        return "Placinte cu brinza!";
     }
 
 }
