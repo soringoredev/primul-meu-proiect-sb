@@ -11,4 +11,9 @@ public class HelloWorldRestController {
         return "Hello World!";
     }
 
+    @GetMapping("/vera")
+    public String veraB() {
+        return "Vera bradu!";
+    }
+
 }
